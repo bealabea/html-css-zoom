@@ -7,6 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #fff;
+    font-size: 15px;
 }
 
 .container {
@@ -19,6 +20,12 @@ header {
      margin-bottom: 50px;
      display: flex;
      justify-content: flex-end;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 button {
@@ -47,3 +54,46 @@ button {
     font-size: 18px;
 }
 
+/* main */
+
+main > div {
+    margin-left: 3px;
+}
+
+main > div img{
+    width: 100%;
+}
+
+.box-img {
+    position: relative;
+}
+
+.user-tag {
+    padding: 5px;
+    background-color: rgba(179, 179, 179, 0.5);
+    position: absolute;
+    bottom: 5px;
+    cursor: pointer;
+}
+
+.question {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.fa-hand-paper {
+    color: rgb(221, 207, 9);
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.user-tag::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: "\f131";
+}
+
+.user-tag:hover {
+    background-color: rgb(66, 66, 66);
+}
