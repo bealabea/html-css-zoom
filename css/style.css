@@ -13,6 +13,7 @@ body {
 .container {
     height: 100vh;
     background-color: #000;
+    display: flex;
 }
 
 header {
@@ -96,4 +97,12 @@ main > div img{
 
 .user-tag:hover {
     background-color: rgb(66, 66, 66);
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    background-color: #333;
+    height: 100px;
 }
