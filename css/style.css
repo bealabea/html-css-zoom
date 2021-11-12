@@ -36,8 +36,18 @@ button {
     border-radius: 5px;
     color: #fff;
     background-color: #4A4A4A;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.footer-row:hover,
+button:hover {
+    color: greenyellow;
     cursor: pointer;
 }
+
+/* ------------------------- */
 
 /* header */
 
@@ -78,7 +88,7 @@ main > div img{
     cursor: pointer;
 }
 
-.question {
+.hand {
     position: absolute;
     top: 5px;
     left: 5px;
@@ -96,6 +106,12 @@ main > div img{
     content: "\f131";
 }
 
+.box-img:active .user-tag::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: "\f130";
+}
+
 .user-tag:hover {
     background-color: rgb(66, 66, 66);
 }
@@ -104,6 +120,43 @@ main > div img{
 
 footer {
     display: flex;
-    background-color: #333;
-    height: 100px;
+    background-color: #222;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav > div {
+    margin: 0 10px;
+}
+
+.icon-img {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.icon-arrow {
+    font-size: 12px;
+}
+
+.fa-share-square {
+    color: greenyellow;
+}
+
+.bg-end-meeting {
+    height: 80px;
+    background-color: #4A4A4A;
+    line-height: 80px;
+    padding: 0 10px;
+}
+
+.button-end {
+    color: red;
+    background-color: transparent;
 }
