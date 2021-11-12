@@ -13,12 +13,13 @@ body {
 .container {
     height: 100vh;
     background-color: #000;
-    display: flex;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
 }
 
 header {
      padding: 5px;
-     margin-bottom: 50px;
      display: flex;
      justify-content: flex-end;
 }
