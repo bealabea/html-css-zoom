@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.container {
+    height: 100vh;
+    background-color: #000;
+}
+
+header {
+     padding: 5px;
+     margin-bottom: 50px;
+     display: flex;
+     justify-content: flex-end;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #4A4A4A;
+    cursor: pointer;
+}
+
+/* header */
+
+.button-view-1::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: "\f00a";
+}
+
+.button-view-2 {
+    margin-left: 10px;
+}
+
+.fa-arrows-alt {
+    transform: rotate(45deg);
+    font-size: 18px;
+}
+
